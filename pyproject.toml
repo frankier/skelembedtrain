@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "skelembedtrain"
+version = "0.1.0"
+description = ""
+authors = ["Frankie Robertson <frankie@robertson.name>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+snakemake = "^5.18.1"
+wcmatch = "^6.0.1"
+imagesize = "^1.2.0"
+tensorboard = "^2.2.2"
+scikit-multilearn = {git = "https://github.com/frankier/scikit-multilearn.git", rev = "142f701b5e210db4a65d6518bee19d76931ec72d"}
+pytorch_lightning = "^0.8.3"
+pycocotools = "^2.0.1"
+pytorch_metric_learning = "^0.9.90"
+chardet = "^3.0.4"
+requests = "^2.24.0"
+umap-learn = "^0.1.1"
+faiss-gpu = "^1.6.3"
+pynndescent = "^0.4.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

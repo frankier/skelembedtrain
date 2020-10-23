@@ -1,0 +1,15 @@
+__pycache__/
+/work/
+/.install_done
+.snakemake/
+*.pyc
+/work/
+*.egg-info/
+*.sif
+/.tox/
+
+# own mess
+/attic/
+/data/
+/remotework/
+/notes/
