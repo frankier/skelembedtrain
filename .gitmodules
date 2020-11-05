@@ -1,0 +1,4 @@
+[submodule "submodules/mmskeleton"]
+	path = submodules/mmskeleton
+	url = https://github.com/frankier/mmskeleton.git
+	branch = gsoc2020
